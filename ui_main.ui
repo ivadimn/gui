@@ -44,7 +44,7 @@ border-radius: 7px;</string>
           <number>12</number>
          </property>
          <item>
-          <widget class="QLabel" name="label">
+          <widget class="QLabel" name="labe_current_balance">
            <property name="styleSheet">
             <string notr="true">color: white;
 font-weight: bold;
@@ -58,7 +58,7 @@ border: none;</string>
           </widget>
          </item>
          <item>
-          <widget class="QLabel" name="label_2">
+          <widget class="QLabel" name="label_balance">
            <property name="styleSheet">
             <string notr="true">color: white;
 font-size: 30pt;
@@ -76,7 +76,7 @@ border: none;</string>
             <number>0</number>
            </property>
            <item>
-            <widget class="QLabel" name="label_3">
+            <widget class="QLabel" name="icon_up_arrow">
              <property name="maximumSize">
               <size>
                <width>24</width>
@@ -97,7 +97,7 @@ padding-top: 10px;</string>
             </widget>
            </item>
            <item>
-            <widget class="QLabel" name="label_4">
+            <widget class="QLabel" name="label_income">
              <property name="styleSheet">
               <string notr="true">color: white;
 font-size: 16pt;
@@ -114,7 +114,7 @@ padding-top: 10px;</string>
           </layout>
          </item>
          <item>
-          <widget class="QLabel" name="label_7">
+          <widget class="QLabel" name="income_balance">
            <property name="styleSheet">
             <string notr="true">color: white;
 font-size: 20pt;
@@ -132,7 +132,7 @@ border: none;</string>
             <number>0</number>
            </property>
            <item>
-            <widget class="QLabel" name="label_6">
+            <widget class="QLabel" name="icon_down_arrow">
              <property name="maximumSize">
               <size>
                <width>24</width>
@@ -153,7 +153,7 @@ padding-top: 10px;</string>
             </widget>
            </item>
            <item>
-            <widget class="QLabel" name="label_5">
+            <widget class="QLabel" name="label_outcome">
              <property name="styleSheet">
               <string notr="true">color: white;
 font-size: 16pt;
@@ -170,7 +170,7 @@ padding-top: 10px;</string>
           </layout>
          </item>
          <item>
-          <widget class="QLabel" name="label_8">
+          <widget class="QLabel" name="outcome_balance">
            <property name="styleSheet">
             <string notr="true">color: white;
 font-size: 20pt;
@@ -209,7 +209,7 @@ border-radius: 7px;</string>
           <number>0</number>
          </property>
          <item>
-          <widget class="QLabel" name="label_9">
+          <widget class="QLabel" name="label_expense_tracker">
            <property name="styleSheet">
             <string notr="true">color: white;
 font-weight: bold;
@@ -228,7 +228,7 @@ border: none;</string>
             <number>0</number>
            </property>
            <item>
-            <widget class="QLabel" name="label_10">
+            <widget class="QLabel" name="icon_grocerires">
              <property name="maximumSize">
               <size>
                <width>24</width>
@@ -248,7 +248,7 @@ border: none;</string>
             </widget>
            </item>
            <item>
-            <widget class="QLabel" name="label_11">
+            <widget class="QLabel" name="label_groceries">
              <property name="styleSheet">
               <string notr="true">color: white;
 font-weight: bold;
@@ -262,7 +262,7 @@ border: none;</string>
             </widget>
            </item>
            <item>
-            <widget class="QLabel" name="label_12">
+            <widget class="QLabel" name="balance_groceries">
              <property name="styleSheet">
               <string notr="true">color: white;
 font-size: 16pt;
@@ -282,7 +282,7 @@ border: none;</string>
             <number>0</number>
            </property>
            <item>
-            <widget class="QLabel" name="label_14">
+            <widget class="QLabel" name="icon_entertainment">
              <property name="maximumSize">
               <size>
                <width>24</width>
@@ -302,7 +302,7 @@ border: none;</string>
             </widget>
            </item>
            <item>
-            <widget class="QLabel" name="label_15">
+            <widget class="QLabel" name="label_entertainment">
              <property name="styleSheet">
               <string notr="true">color: white;
 font-weight: bold;
@@ -316,7 +316,7 @@ border: none;</string>
             </widget>
            </item>
            <item>
-            <widget class="QLabel" name="label_13">
+            <widget class="QLabel" name="balance_entertainment">
              <property name="styleSheet">
               <string notr="true">color: white;
 font-size: 16pt;
@@ -336,7 +336,7 @@ border: none;</string>
             <number>0</number>
            </property>
            <item>
-            <widget class="QLabel" name="label_17">
+            <widget class="QLabel" name="icon_auto">
              <property name="maximumSize">
               <size>
                <width>24</width>
@@ -356,7 +356,7 @@ border: none;</string>
             </widget>
            </item>
            <item>
-            <widget class="QLabel" name="label_18">
+            <widget class="QLabel" name="label_auto">
              <property name="styleSheet">
               <string notr="true">color: white;
 font-weight: bold;
@@ -370,7 +370,7 @@ border: none;</string>
             </widget>
            </item>
            <item>
-            <widget class="QLabel" name="label_16">
+            <widget class="QLabel" name="balance_auto">
              <property name="styleSheet">
               <string notr="true">color: white;
 font-size: 16pt;
@@ -390,7 +390,7 @@ border: none;</string>
             <number>0</number>
            </property>
            <item>
-            <widget class="QLabel" name="label_20">
+            <widget class="QLabel" name="icon_other">
              <property name="maximumSize">
               <size>
                <width>24</width>
@@ -410,7 +410,7 @@ border: none;</string>
             </widget>
            </item>
            <item>
-            <widget class="QLabel" name="label_21">
+            <widget class="QLabel" name="label_other">
              <property name="styleSheet">
               <string notr="true">color: white;
 font-weight: bold;
@@ -424,7 +424,7 @@ border: none;</string>
             </widget>
            </item>
            <item>
-            <widget class="QLabel" name="label_19">
+            <widget class="QLabel" name="balance_other">
              <property name="styleSheet">
               <string notr="true">color: white;
 font-size: 16pt;
@@ -446,7 +446,7 @@ border: none;</string>
     <item>
      <layout class="QHBoxLayout" name="horizontalLayout_8">
       <item>
-       <widget class="QPushButton" name="pushButton">
+       <widget class="QPushButton" name="btn_new_transaction">
         <property name="styleSheet">
          <string notr="true">QPushButton { 
 background-color:rgba(255, 255, 255, 30);
@@ -479,7 +479,7 @@ background-color:rgba(255, 255, 255, 70);
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButton_2">
+       <widget class="QPushButton" name="btn_edit_transaction">
         <property name="styleSheet">
          <string notr="true">QPushButton { 
 background-color:rgba(255, 255, 255, 30);
@@ -513,7 +513,7 @@ background-color:rgba(255, 255, 255, 70);
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButton_3">
+       <widget class="QPushButton" name="btn_delete_transaction">
         <property name="styleSheet">
          <string notr="true">QPushButton { 
 background-color:rgba(255, 255, 255, 30);
